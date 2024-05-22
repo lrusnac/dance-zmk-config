@@ -1,8 +1,8 @@
 file_format: "1"
 id: dance
-name: Chocofi Dance
+name: Dance (Chocofi)
 type: shield
-url: https://github.com/raeedcho/chocofi-dance
+url: https://github.com/chase-hunter/dance
 requires: [pro_micro]
 exposes: [i2c_oled]
 features:
