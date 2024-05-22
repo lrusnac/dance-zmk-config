@@ -1,0 +1,14 @@
+file_format: "1"
+id: dance
+name: Chocofi Dance
+type: shield
+url: https://github.com/raeedcho/chocofi-dance
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - underglow
+siblings:
+  - dance_left
+  - dance_right
