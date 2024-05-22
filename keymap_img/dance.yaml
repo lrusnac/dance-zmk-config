@@ -21,12 +21,12 @@ layers:
     - {t: ',', s: <}
     - {t: ., s: '>'}
     - /
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+  - - ⌘
+    - {t: ⇧, s: ⇪}
+    - num
+    - nav
+    - SPACE
+    - {t: BACKSPACE, s: Alt+ BACKSPACE}
   num:
   - - '~'
     - '@'
@@ -51,7 +51,7 @@ layers:
     - {t: '=', s: +}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - {type: held}
     - '0'
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -89,7 +89,7 @@ layers:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   fun:
@@ -125,7 +125,7 @@ layers:
     - F10
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - {type: held}
+    - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
