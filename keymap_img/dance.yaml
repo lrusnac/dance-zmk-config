@@ -117,7 +117,7 @@ layers:
     - PREV
     - PP
     - NEXT
-    - {t: ▽, type: trans}
+    - '&bootloader'
     - {t: ▽, type: trans}
     - F1
     - F2
