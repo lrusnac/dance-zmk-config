@@ -76,15 +76,15 @@ layers:
     - ↑
     - →
     - {t: '''', s: '"'}
-  - - {t: ESC, s: '`'}
+  - - {t: ▽, type: trans}
     - DEL
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - ESC
     - RET
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - {t: '`', s: '~'}
     - '?'
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
