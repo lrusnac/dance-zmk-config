@@ -116,7 +116,7 @@
             bindings = <
   &trans     &trans     &trans    &trans    &trans     &trans    &kp HOME  &kp END  &kp TAB    &super_bspc
   &sk LSHFT  &sk LCTRL  &sk LALT  &sk LGUI  &kp TAB    &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT  &kp SINGLE_QUOTE
-  &gresc     &kp DEL    &trans    &trans    &trans     &trans    &kp RET   &trans   &trans     &kp QUESTION
+  &trans     &kp DEL    &trans    &trans    &trans     &kp ESC   &kp RET   &trans   &kp GRAVE  &kp QUESTION
                         &trans    &trans    &trans     &trans    &trans    &trans
             >;
         };
