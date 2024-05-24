@@ -22,11 +22,11 @@ layers:
     - {t: ., s: '>'}
     - /
   - - ⌘
-    - {t: ⇧, s: ⇪}
+    - {t: BACKSPACE, s: Alt+ BACKSPACE}
     - num
     - nav
     - SPACE
-    - {t: BACKSPACE, s: Alt+ BACKSPACE}
+    - {t: ⇧, s: ⇪}
   num:
   - - '~'
     - '@'
@@ -75,8 +75,8 @@ layers:
     - ↓
     - ↑
     - →
-    - {t: ESC, s: '`'}
-  - - {t: ▽, type: trans}
+    - {t: '''', s: '"'}
+  - - {t: ESC, s: '`'}
     - DEL
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -85,7 +85,7 @@ layers:
     - RET
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - '?'
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
