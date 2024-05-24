@@ -25,7 +25,7 @@ layers:
     - {t: BACKSPACE, s: Alt+ BACKSPACE}
     - num
     - nav
-    - SPACE
+    - {t: SPACE, h: nav}
     - {t: ⇧, s: ⇪}
   num:
   - - '~'
