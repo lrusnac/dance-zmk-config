@@ -21,12 +21,12 @@ layers:
     - {t: ',', s: <}
     - {t: ., s: '>'}
     - /
-  - - ⌘
+  - - num
     - {t: BACKSPACE, s: Alt+ BACKSPACE}
-    - num
-    - nav
-    - {t: SPACE, h: nav}
+    - LEFT COMMAND
     - {t: ⇧, s: ⇪}
+    - SPACE
+    - nav
   num:
   - - '~'
     - '@'
@@ -49,9 +49,9 @@ layers:
     - '2'
     - '3'
     - {t: '=', s: +}
-  - - {t: ▽, type: trans}
+  - - {type: held}
     - {t: ▽, type: trans}
-    - {type: held}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - '0'
     - {t: ▽, type: trans}
@@ -89,9 +89,9 @@ layers:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {type: held}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
   fun:
   - - {t: ▽, type: trans}
     - MUTE
@@ -114,9 +114,9 @@ layers:
     - F6
     - F11
   - [BT CLR, PREV, PP, NEXT, '&bootloader', '&bootloader', F1, F2, F3, F10]
-  - - {t: ▽, type: trans}
+  - - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
-    - {type: held}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
