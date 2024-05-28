@@ -169,7 +169,7 @@
         default_layer {
             bindings = <
   &kp Q             &kp W  &kp E  &kp R        &kp T               &kp Y      &kp U      &kp I      &kp O    &kp P
-  &hml LGUI A      &hml LALT S  &hml LSHFT D  &hml LCTRL F        &kp G  &hmr RCTRL H      &hmr RSHFT J      &hmr RALT K      &hmr RGUI L    &kp SEMI
+  &hml LGUI A      &hml LALT S  &hml LSHFT D  &hml LCTRL F        &kp G  &kp H    &hmr RCTRL   J   &hmr RSHFT    K     &hmr RALT  L    &hmr RGUI SEMI
   &mt LEFT_SHIFT Z  &kp X  &kp C  &kp V        &kp B               &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH
                            &mo 1  &super_bspc  &kp LEFT_COMMAND    &kp LSHFT  &kp SPACE  &mo 2
             >;
@@ -178,7 +178,7 @@
         num_layer {
             bindings = <
   &kp TILDE    &kp AT    &kp LBRC  &kp RBRC  &kp PRCNT    &kp STAR    &kp N7  &kp N8  &kp N9  &kp MINUS
-  &hml LGUI CARET    &hml LALT HASH  &hml LSHFT LPAR  &hml LCTRL RPAR  &kp DLLR     &hmr RCTRL UNDER   &hmr RSHFT N4  &hmr RALT N5 &hmr RGUI N6  &kp PLUS
+  &hml LGUI CARET    &hml LALT HASH  &hml LSHFT LPAR  &hml LCTRL RPAR  &kp DLLR     &kp UNDER   &hmr RCTRL N4  &hmr RSHFT N5 &hmr RALT N6  &hmr RGUI PLUS
   &amps_morph  &kp LT    &kp LBKT  &kp RBKT  &kp GT       &slh_morph  &kp N1  &kp N2  &kp N3  &kp EQUAL
                          &trans    &trans    &trans       &trans      &kp N0  &trans
             >;
