@@ -25,29 +25,12 @@
     };
 
     behaviors {
-        bspc_del: backspace_delete {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp BACKSPACE>, <&kp DELETE>;
-
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-            keep-mods = <(MOD_RSFT)>;
-        };
-
         super_bspc: super_backspace {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp BACKSPACE>, <&kp LA(BACKSPACE)>;
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        smart_shft: smart_shift {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp LSHFT>, <&caps_word>;
-
-            mods = <(MOD_LSFT)>;
         };
 
         comma_semi: comma_semi {
@@ -98,7 +81,7 @@
             bindings = <
   &kp Q             &kp W  &kp E  &kp R        &kp T               &kp Y        &kp U      &kp I      &kp O    &kp P
   &kp A             &kp S  &kp D  &kp F        &kp G               &kp H        &kp J      &kp K      &kp L    &kp SEMI
-  &mt LEFT_SHIFT Z  &kp X  &kp C  &kp V        &kp B               &kp N        &kp M      &kp COMMA  &kp DOT  &kp FSLH
+  &mt LEFT_SHIFT Z  &kp X  &kp C  &kp V        &kp B               &kp N        &kp M      &comma_semi  &dot_colon  &kp FSLH
                            &mo 1  &super_bspc  &kp LEFT_COMMAND    &smart_shft  &kp SPACE  &mo 2
             >;
         };
