@@ -18,13 +18,13 @@ layers:
     - B
     - N
     - M
-    - {t: ',', s: <}
-    - {t: ., s: '>'}
+    - {t: ',', s: ;}
+    - {t: ., s: ':'}
     - /
   - - num
     - {t: BACKSPACE, s: Alt+ BACKSPACE}
     - LEFT COMMAND
-    - {t: ⇧, s: ⇪}
+    - '&smart_shft'
     - SPACE
     - nav
   num:
