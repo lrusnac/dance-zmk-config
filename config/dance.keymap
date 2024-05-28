@@ -16,7 +16,7 @@
 #define FUN 3
 
 #define QUICK_TAP_MS 175
-#define REQUIRE_PRIOR_IDLE_MS 10500/50 // set it to at least 10500/x where x is your (relaxed) WPM for English prose
+#define REQUIRE_PRIOR_IDLE_MS 210 // set it to at least 10500/x where x is your (relaxed) WPM for English prose
 #define TAPING_TERM_MS 280
 // #define MAKE_HRM(NAME, HOLD, TAP, TRIGGER_POS) \
 //     ZMK_HOLD_TAP(NAME, \
