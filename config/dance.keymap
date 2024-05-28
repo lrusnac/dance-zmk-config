@@ -73,19 +73,19 @@
             hold-trigger-key-positions = <KEYS_L THUMBS>;
             hold-trigger-on-release;
         };
-        hml_repeat: hml_repeat {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <TAPING_TERM_MS>;
-            quick-tap-ms = <QUICK_TAP_MS>;
-            require-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;
+        // hml_repeat: hml_repeat {
+        //     compatible = "zmk,behavior-hold-tap";
+        //     #binding-cells = <2>;
+        //     flavor = "balanced";
+        //     tapping-term-ms = <TAPING_TERM_MS>;
+        //     quick-tap-ms = <QUICK_TAP_MS>;
+        //     require-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;
 
-            bindings = <&kp>, <&key_repeat>;
+        //     bindings = <&kp>, <&key_repeat>;
 
-            hold-trigger-key-positions = <KEYS_R THUMBS>;
-            hold-trigger-on-release;
-        };
+        //     hold-trigger-key-positions = <KEYS_R THUMBS>;
+        //     hold-trigger-on-release;
+        // };
         // hml_lpar_lt: hml_lpar_lt {
         //     compatible = "zmk,behavior-hold-tap";
         //     #binding-cells = <2>;
