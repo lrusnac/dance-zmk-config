@@ -16,8 +16,8 @@
 #define FUN 3
 
 #define QUICK_TAP_MS 175
-#define REQUIRE_PRIOR_IDLE_MS 210 // set it to at least 10500/x where x is your (relaxed) WPM for English prose
-#define TAPING_TERM_MS 280
+// #define 210 210 // set it to at least 10500/x where x is your (relaxed) WPM for English prose
+// #define 280 280
 // #define MAKE_HRM(NAME, HOLD, TAP, TRIGGER_POS) \
 //     ZMK_HOLD_TAP(NAME, \
 //         flavor = "balanced"; \
@@ -51,9 +51,9 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <TAPING_TERM_MS>;
+            tapping-term-ms = <280>;
             quick-tap-ms = <QUICK_TAP_MS>;
-            require-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;
+            require-prior-idle-ms = <210>;
 
             bindings = <&kp>, <&kp>;
 
@@ -64,9 +64,9 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <TAPING_TERM_MS>;
+            tapping-term-ms = <280>;
             quick-tap-ms = <QUICK_TAP_MS>;
-            require-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;
+            require-prior-idle-ms = <210>;
 
             bindings = <&kp>, <&kp>;
 
@@ -77,9 +77,9 @@
         //     compatible = "zmk,behavior-hold-tap";
         //     #binding-cells = <2>;
         //     flavor = "balanced";
-        //     tapping-term-ms = <TAPING_TERM_MS>;
+        //     tapping-term-ms = <280>;
         //     quick-tap-ms = <QUICK_TAP_MS>;
-        //     require-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;
+        //     require-prior-idle-ms = <210>;
 
         //     bindings = <&kp>, <&key_repeat>;
 
