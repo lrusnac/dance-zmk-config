@@ -98,7 +98,7 @@
         nav_layer {
             bindings = <
   &trans     &trans     &trans    &trans    &trans     &trans    &kp HOME  &kp END  &kp TAB    &super_bspc
-  &sk LSHFT  &sk LCTRL  &sk LALT  &sk LGUI  &kp TAB    &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT  &mt RIGHT_ALT SINGLE_QUOTE
+  &sk LSHFT  &sk LCTRL  &sk LALT  &sk LGUI  &kp TAB    &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT  &kp SINGLE_QUOTE
   &trans     &kp DEL    &trans    &trans    &trans     &kp ESC   &kp RET   &trans   &kp GRAVE  &qmrk_excl
                         &trans    &trans    &trans     &trans    &trans    &trans
             >;
