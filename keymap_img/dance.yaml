@@ -76,7 +76,7 @@ layers:
     - ↹
     - {t: BACKSPACE, s: Alt+ BACKSPACE}
   - - {t: ⌘, h: sticky}
-    - {t: LALT LCTRL, h: sticky}
+    - {t: ⎇, h: sticky}
     - {t: ⇧, h: sticky}
     - {t: ⌃, h: sticky}
     - ↹
