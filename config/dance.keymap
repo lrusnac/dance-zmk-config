@@ -71,7 +71,7 @@
             #binding-cells = <0>;
             bindings = <&kp QMARK>, <&kp EXCL>;
 
-            mods = <(MOD_LSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         slh_morph: slh_morph {
@@ -116,7 +116,7 @@
             bindings = <
   &trans     &trans     &trans    &trans    &trans     &trans    &kp HOME  &kp END  &kp TAB    &super_bspc
   &sk LSHFT  &sk LCTRL  &sk LALT  &sk LGUI  &kp TAB    &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT  &mt RIGHT_ALT SINGLE_QUOTE
-  &trans     &kp DEL    &trans    &trans    &trans     &kp ESC   &kp RET   &trans   &kp GRAVE  &kp QUESTION
+  &trans     &kp DEL    &trans    &trans    &trans     &kp ESC   &kp RET   &trans   &kp GRAVE  &qmrk_excl
                         &trans    &trans    &trans     &trans    &trans    &trans
             >;
         };
