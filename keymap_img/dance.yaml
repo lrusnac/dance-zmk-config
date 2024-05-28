@@ -18,8 +18,8 @@ layers:
     - B
     - N
     - M
-    - {t: ',', s: ;}
-    - {t: ., s: ':'}
+    - {t: ',', s: <}
+    - {t: ., s: '>'}
     - /
   - - num
     - {t: BACKSPACE, s: Alt+ BACKSPACE}
