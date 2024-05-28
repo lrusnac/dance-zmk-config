@@ -46,7 +46,7 @@
             #binding-cells = <0>;
             bindings = <&kp COMMA>, <&kp SEMI>;
 
-            mods = <(MOD_LSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         dot_colon: dot_colon {
@@ -54,7 +54,7 @@
             #binding-cells = <0>;
             bindings = <&kp DOT>, <&kp COLON>;
 
-            mods = <(MOD_LSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         qmrk_excl: qmrk_excl {
@@ -70,7 +70,7 @@
             #binding-cells = <0>;
             bindings = <&kp FSLH>, <&kp BSLH>;
 
-            mods = <(MOD_LSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         amps_morph: amps_morph {
@@ -78,7 +78,7 @@
             #binding-cells = <0>;
             bindings = <&kp AMPS>, <&kp PIPE>;
 
-            mods = <(MOD_LSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
 
