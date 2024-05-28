@@ -24,7 +24,7 @@ layers:
   - - num
     - {t: BACKSPACE, s: Alt+ BACKSPACE}
     - LEFT COMMAND
-    - '&smart_shft'
+    - {t: ⇧, s: ⇪}
     - SPACE
     - nav
   num:
