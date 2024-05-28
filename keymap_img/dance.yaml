@@ -75,7 +75,7 @@ layers:
     - ↓
     - ↑
     - →
-    - {t: '''', h: ⎇, s: '"'}
+    - {t: '''', s: '"'}
   - - {t: ▽, type: trans}
     - DEL
     - {t: ▽, type: trans}
