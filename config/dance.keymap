@@ -33,17 +33,8 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        smart_shft: smart_shift {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp LSHFT>, <&caps_word>;
-
-            mods = <(MOD_LSFT)>;
-        };
-
         comma_semi: comma_semi {
             compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
             bindings = <&kp COMMA>, <&kp SEMI>;
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -51,7 +42,6 @@
 
         dot_colon: dot_colon {
             compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
             bindings = <&kp DOT>, <&kp COLON>;
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
