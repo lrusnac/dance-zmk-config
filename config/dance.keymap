@@ -118,7 +118,7 @@
             key-positions = <LM3 LM1>;
             layers = <DEFAULT>;
             timeout-ms = <COMBO_TERM_FAST>;
-            required-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
 
         j+l_esc {
@@ -126,7 +126,7 @@
             key-positions = <RM1 RM3>;
             layers = <DEFAULT>;
             timeout-ms = <COMBO_TERM_FAST>;
-            required-idle-ms = <COMBO_IDLE_FAST>;
+            require-prior-idle-ms = <COMBO_IDLE_FAST>;
         };
     };
 
