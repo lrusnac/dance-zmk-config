@@ -14,9 +14,15 @@
 #define NUM 1
 #define NAV 2
 #define FUN 3
+// home row modifiers timing
 #define QUICK_TAP_MS 175
 #define REQUIRE_PRIOR_IDLE_MS 210 // set it to at least 10500/x where x is your (relaxed) WPM for English prose
 #define TAPING_TERM_MS 280
+// combo timing
+#define COMBO_TERM_FAST 18
+#define COMBO_TERM_SLOW 30
+#define COMBO_IDLE_FAST 150
+#define COMBO_IDLE_SLOW 50
 
 / {
     conditional_layers {
@@ -109,12 +115,18 @@
 
         s+f_tab {
             bindings = <&kp TAB>;
-            key-positions = <11 13>;
+            key-positions = <LM3 LM1>;
+            layers = <DEFAULT>;
+            timeout-ms = <COMBO_TERM_FAST>;
+            required-idle-ms = <COMBO_IDLE_FAST>;
         };
 
         j+l_esc {
             bindings = <&kp ESC>;
-            key-positions = <16 18>;
+            key-positions = <RM1 RM3>;
+            layers = <DEFAULT>;
+            timeout-ms = <COMBO_TERM_FAST>;
+            required-idle-ms = <COMBO_IDLE_FAST>;
         };
     };
 
