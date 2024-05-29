@@ -139,8 +139,8 @@
 
         default_layer {
             bindings = <
-  &kp Q             &kp W        &kp E         &kp R         &kp T               &kp Y      &kp U         &kp I         &kp O        &kp P
-  &hml LGUI A       &hml LALT S  &hml LSHFT D  &hml LCTRL F  &kp G               &kp H      &hmr RCTRL J  &hmr RSHFT K  &hmr RALT L  &hmr RGUI SEMI
+  &kp Q             &kp W        &kp E         &kp R         &kp T               &kp Y      &kp U         &kp I         &kp O        &kp SEMICOLON
+  &hml LGUI A       &hml LALT S  &hml LSHFT D  &hml LCTRL F  &kp G               &kp H      &hmr RCTRL J  &hmr RSHFT K  &hmr RALT L  &hmr RGUI P
   &mt LEFT_SHIFT Z  &kp X        &kp C         &kp V         &kp B               &kp N      &kp M         &kp COMMA     &kp DOT      &kp FSLH
                                  &mo 1         &super_bspc   &kp LEFT_COMMAND    &kp LSHFT  &kp SPACE     &mo 2
             >;
@@ -148,18 +148,18 @@
 
         num_layer {
             bindings = <
-  &kp TILDE        &kp AT          &kp LBRC         &kp RBRC         &kp PRCNT    &kp STAR    &kp N7         &kp N8         &kp N9        &kp MINUS
-  &hml LGUI CARET  &hml LALT HASH  &hml LSHFT LPAR  &hml LCTRL RPAR  &kp DLLR     &kp UNDER   &hmr RCTRL N4  &hmr RSHFT N5  &hmr RALT N6  &hmr RGUI PLUS
-  &amps_morph      &kp LT          &kp LBKT         &kp RBKT         &kp GT       &slh_morph  &kp N1         &kp N2         &kp N3        &kp EQUAL
-                                   &trans           &trans           &trans       &trans      &kp N0         &trans
+  &kp GRAVE        &kp AT          &kp LBRC         &kp RBRC         &kp DOUBLE_QUOTES    &kp STAR    &kp N7         &kp N8         &kp N9        &kp MINUS
+  &hml LGUI CARET  &hml LALT HASH  &hml LSHFT LPAR  &hml LCTRL RPAR  &kp SINGLE_QUOTE     &kp UNDER   &hmr RCTRL N4  &hmr RSHFT N5  &hmr RALT N6  &hmr RGUI PLUS
+  &amps_morph      &kp LT          &kp LBKT         &kp RBKT         &kp GT               &slh_morph  &kp N1         &kp N2         &kp N3        &kp EQUAL
+                                   &trans           &trans           &trans               &trans      &kp N0         &trans
             >;
         };
 
         nav_layer {
             bindings = <
-  &trans    &trans    &trans     &trans     &trans     &kp LC(LEFT)  &trans    &trans   &kp LC(RIGHT)  &super_bspc
-  &sk LGUI  &sk LALT  &sk LSHFT  &sk LCTRL  &kp TAB    &kp LEFT      &kp DOWN  &kp UP   &kp RIGHT      &kp SINGLE_QUOTE
-  &trans    &trans    &trans     &trans     &trans     &kp ESC       &kp RET   &kp TAB  &kp GRAVE      &qmrk_excl
+  &trans    &trans    &trans     &trans     &trans     &kp LC(LEFT)  &trans    &kp TAB        &kp LC(RIGHT)  &super_bspc
+  &sk LGUI  &sk LALT  &sk LSHFT  &sk LCTRL  &kp TAB    &kp LEFT      &kp DOWN  &kp UP         &kp RIGHT      &kp SINGLE_QUOTE
+  &trans    &trans    &trans     &trans     &trans     &kp ESC       &kp RET   &kp LS(ENTER)  &kp LG(ENTER)  &qmrk_excl
                       &trans     &trans     &trans     &trans        &trans    &trans
             >;
         };
