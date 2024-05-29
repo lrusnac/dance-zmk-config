@@ -1,6 +1,15 @@
 layers:
   default:
-  - [Q, W, E, R, T, Y, U, I, O, P]
+  - - Q
+    - W
+    - E
+    - R
+    - T
+    - Y
+    - U
+    - I
+    - O
+    - {t: ;, s: ':'}
   - - {t: A, h: ⌘}
     - {t: S, h: ⎇}
     - {t: D, h: ⇧}
@@ -10,7 +19,7 @@ layers:
     - {t: J, h: ⌃}
     - {t: K, h: ⇧}
     - {t: L, h: ⎇}
-    - {t: ;, h: ⌘, s: ':'}
+    - {t: P, h: ⌘}
   - - {t: Z, h: LEFT SHIFT}
     - X
     - C
@@ -28,11 +37,11 @@ layers:
     - SPACE
     - nav
   num:
-  - - '~'
+  - - {t: '`', s: '~'}
     - '@'
     - '{'
     - '}'
-    - '%'
+    - '"'
     - '*'
     - '7'
     - '8'
@@ -42,7 +51,7 @@ layers:
     - {t: '#', h: ⎇}
     - {t: (, h: ⇧}
     - {t: ), h: ⌃}
-    - $
+    - {t: '''', s: '"'}
     - _
     - {t: '4', h: ⌃}
     - {t: '5', h: ⇧}
@@ -72,7 +81,7 @@ layers:
     - {t: ▽, type: trans}
     - Ctl+ ←
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - ↹
     - Ctl+ →
     - {t: BACKSPACE, s: Alt+ BACKSPACE}
   - - {t: ⌘, h: sticky}
@@ -92,8 +101,8 @@ layers:
     - {t: ▽, type: trans}
     - ESC
     - RET
-    - ↹
-    - {t: '`', s: '~'}
+    - Sft+ ENTER
+    - Gui+ ENTER
     - {t: '?', s: '!'}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
