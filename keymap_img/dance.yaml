@@ -70,10 +70,10 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - Ctl+ ←
     - {t: ▽, type: trans}
-    - HOME
-    - END
-    - ↹
+    - {t: ▽, type: trans}
+    - Ctl+ →
     - {t: BACKSPACE, s: Alt+ BACKSPACE}
   - - {t: ⌘, h: sticky}
     - {t: ⎇, h: sticky}
@@ -86,13 +86,13 @@ layers:
     - →
     - {t: '''', s: '"'}
   - - {t: ▽, type: trans}
-    - DEL
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - ESC
     - RET
-    - {t: ▽, type: trans}
+    - ↹
     - {t: '`', s: '~'}
     - {t: '?', s: '!'}
   - - {t: ▽, type: trans}
