@@ -132,5 +132,7 @@ layers:
 combos:
 - p: [11, 13]
   k: ↹
+  l: [default]
 - p: [16, 18]
   k: ESC
+  l: [default]
