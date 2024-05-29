@@ -129,3 +129,8 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
+combos:
+- p: [11, 13]
+  k: ↹
+- p: [16, 18]
+  k: ESC
