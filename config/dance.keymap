@@ -115,7 +115,7 @@
 
         s+f_tab {
             bindings = <&kp TAB>;
-            key-positions = <LM3 LM1>;
+            key-positions = <LT3 LT1>;
             layers = <DEFAULT>;
             timeout-ms = <COMBO_TERM_FAST>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
@@ -123,7 +123,7 @@
 
         j+l_esc {
             bindings = <&kp ESC>;
-            key-positions = <RM1 RM3>;
+            key-positions = <RT1 RT3>;
             layers = <DEFAULT>;
             timeout-ms = <COMBO_TERM_FAST>;
             require-prior-idle-ms = <COMBO_IDLE_FAST>;
