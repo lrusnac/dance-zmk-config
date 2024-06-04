@@ -114,25 +114,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        s+f_tab {
-            bindings = <&kp TAB>;
-            key-positions = <LT3 LT1>;
-            layers = <DEFAULT>;
-            timeout-ms = <COMBO_TERM_FAST>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
-        };
-
-        j+l_esc {
-            bindings = <&kp ESC>;
-            key-positions = <RT1 RT3>;
-            layers = <DEFAULT>;
-            timeout-ms = <COMBO_TERM_FAST>;
-            require-prior-idle-ms = <COMBO_IDLE_FAST>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -157,10 +139,10 @@
 
         nav_layer {
             bindings = <
-  &trans    &trans    &trans     &trans     &trans     &kp LC(LEFT)  &trans    &kp TAB        &kp LC(RIGHT)  &super_bspc
-  &sk LGUI  &sk LALT  &sk LSHFT  &sk LCTRL  &kp TAB    &kp LEFT      &kp DOWN  &kp UP         &kp RIGHT      &kp SINGLE_QUOTE
-  &trans    &trans    &trans     &trans     &trans     &kp ESC       &kp RET   &kp LS(ENTER)  &kp LG(ENTER)  &qmrk_excl
-                      &trans     &trans     &trans     &trans        &trans    &trans
+  &trans    &trans    &trans     &trans     &trans     &kp LC(LEFT)  &kp RC(RIGHT)  &kp TAB        &kp RC(RS(TAB))  &kp RC(TAB)
+  &sk LGUI  &sk LALT  &sk LSHFT  &sk LCTRL  &kp TAB    &kp LEFT      &kp DOWN       &kp UP         &kp RIGHT        &kp SINGLE_QUOTE
+  &trans    &trans    &trans     &trans     &trans     &kp ESC       &kp RET        &kp LS(ENTER)  &kp LG(ENTER)    &qmrk_excl
+                      &trans     &trans     &trans     &trans        &trans         &trans
             >;
         };
 
