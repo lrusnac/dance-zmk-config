@@ -233,18 +233,6 @@ path {
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">nav</text>
 </g>
-<g class="combo combopos-0">
-<path d="M148,49 l-40,-1" class="combo"/>
-<path d="M148,49 l40,1" class="combo"/>
-<rect rx="6" ry="6" x="134" y="36" width="28" height="26" class="combo"/>
-<text x="148" y="49" class="combo tap">↹</text>
-</g>
-<g class="combo combopos-1">
-<path d="M639,49 l-40,1" class="combo"/>
-<path d="M639,49 l40,-1" class="combo"/>
-<rect rx="6" ry="6" x="625" y="36" width="28" height="26" class="combo"/>
-<text x="639" y="49" class="combo tap">ESC</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 354)" class="layer-num">
@@ -440,9 +428,11 @@ path {
 <tspan x="0" dy="-0.6em">Ctl+</tspan><tspan x="0" dy="1.2em">←</tspan>
 </text>
 </g>
-<g transform="translate(580, 50)" class="key trans keypos-6">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(580, 50)" class="key keypos-6">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Ctl+</tspan><tspan x="0" dy="1.2em">→</tspan>
+</text>
 </g>
 <g transform="translate(639, 28)" class="key keypos-7">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -451,13 +441,14 @@ path {
 <g transform="translate(698, 48)" class="key keypos-8">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Ctl+</tspan><tspan x="0" dy="1.2em">→</tspan>
+<tspan x="0" dy="-0.6em" style="font-size: 88%">Ctl+Sft+</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">↹</tspan>
 </text>
 </g>
 <g transform="translate(758, 87)" class="key keypos-9">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
-<text x="0" y="-24" class="key shifted"><tspan style="font-size: 64%">Alt+ BACKS…</tspan></text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Ctl+</tspan><tspan x="0" dy="1.2em">↹</tspan>
+</text>
 </g>
 <g transform="translate(30, 143)" class="key keypos-10">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
