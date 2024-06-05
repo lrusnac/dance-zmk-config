@@ -31,10 +31,10 @@ layers:
     - {t: ., s: '>'}
     - /
   - - num
-    - {t: BACKSPACE, s: Alt+ BACKSPACE}
+    - {t: BACKSPACE, h: num}
     - LEFT COMMAND
     - ⇧
-    - SPACE
+    - {t: SPACE, h: nav}
     - nav
   num:
   - - {t: '`', s: '~'}
@@ -108,8 +108,8 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
     - {type: held}
+    - {t: ▽, type: trans}
   fun:
   - - {t: ▽, type: trans}
     - MUTE
@@ -136,5 +136,5 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
     - {type: held}
+    - {t: ▽, type: trans}
