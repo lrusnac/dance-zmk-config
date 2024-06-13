@@ -20,7 +20,7 @@ layers:
     - {t: K, h: ⇧}
     - {t: L, h: ⎇}
     - {t: P, h: ⌘}
-  - - {t: Z, h: LEFT SHIFT}
+  - - Z
     - X
     - C
     - V
@@ -30,7 +30,12 @@ layers:
     - {t: ',', s: <}
     - {t: ., s: '>'}
     - /
-  - [LEFT COMMAND, BACKSPACE, num, nav, SPACE, LEFT SHIFT]
+  - - {t: ▽, type: trans}
+    - BACKSPACE
+    - num
+    - nav
+    - SPACE
+    - {t: ▽, type: trans}
   num:
   - - {t: '`', s: '~'}
     - '@'
