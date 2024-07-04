@@ -62,13 +62,13 @@ layers:
     - {t: '[', s: '{'}
     - {t: ']', s: '}'}
     - '>'
-    - {t: /, s: \}
+    - {t: \, s: '|'}
     - '1'
     - '2'
     - '3'
     - {t: '=', s: +}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+  - - Alt+ Y
+    - Alt+ U
     - {type: held}
     - {t: ▽, type: trans}
     - '0'
@@ -93,7 +93,7 @@ layers:
     - ↓
     - ↑
     - →
-    - {t: '''', s: '"'}
+    - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -103,13 +103,13 @@ layers:
     - RET
     - Sft+ ENTER
     - Gui+ ENTER
-    - {t: '?', s: '!'}
+    - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - ↹
+    - Sft+ ↹
   fun:
   - - {t: ▽, type: trans}
     - MUTE
