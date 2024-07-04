@@ -57,7 +57,7 @@ layers:
     - {t: '5', h: ⇧}
     - {t: '6', h: ⎇}
     - {t: +, h: ⌘}
-  - - {t: '&', s: '|'}
+  - - '&'
     - <
     - {t: '[', s: '{'}
     - {t: ']', s: '}'}
@@ -72,7 +72,7 @@ layers:
     - {type: held}
     - {t: ▽, type: trans}
     - '0'
-    - {t: ▽, type: trans}
+    - {t: ., s: '>'}
   nav:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -93,7 +93,7 @@ layers:
     - ↓
     - ↑
     - →
-    - {t: ▽, type: trans}
+    - Gui+ UP ARROW
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -103,7 +103,7 @@ layers:
     - RET
     - Sft+ ENTER
     - Gui+ ENTER
-    - {t: ▽, type: trans}
+    - Gui+ ↓
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
