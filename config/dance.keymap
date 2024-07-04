@@ -132,16 +132,16 @@
             bindings = <
   &kp GRAVE        &kp AT          &kp LBRC         &kp RBRC         &kp DOUBLE_QUOTES    &kp STAR       &kp N7         &kp N8         &kp N9        &kp MINUS
   &hml LGUI CARET  &hml LALT HASH  &hml LSHFT LPAR  &hml LCTRL RPAR  &kp SINGLE_QUOTE     &kp UNDER      &hmr RCTRL N4  &hmr RSHFT N5  &hmr RALT N6  &hmr RGUI PLUS
-  &amps_morph      &kp LT          &kp LBKT         &kp RBKT         &kp GT               &kp BACKSLASH  &kp N1         &kp N2         &kp N3        &kp EQUAL
-                                   &kp LA(Y)        &kp LA(U)        &trans               &trans         &kp N0         &trans
+  &kp AMPS         &kp LT          &kp LBKT         &kp RBKT         &kp GT               &kp BACKSLASH  &kp N1         &kp N2         &kp N3        &kp EQUAL
+                                   &kp LA(Y)        &kp LA(U)        &trans               &trans         &kp N0         &kp DOT
             >;
         };
 
         nav_layer {
             bindings = <
   &trans    &trans    &trans     &trans     &trans     &kp LA(Y)  &kp LA(U)  &kp TAB        &kp RC(RS(TAB))  &kp RC(TAB)
-  &sk LGUI  &sk LALT  &sk LSHFT  &sk LCTRL  &kp TAB    &kp LEFT   &kp DOWN   &kp UP         &kp RIGHT        &trans
-  &trans    &trans    &trans     &trans     &trans     &kp ESC    &kp RET    &kp LS(ENTER)  &kp LG(ENTER)    &trans
+  &sk LGUI  &sk LALT  &sk LSHFT  &sk LCTRL  &kp TAB    &kp LEFT   &kp DOWN   &kp UP         &kp RIGHT        &kp LG(UP_ARROW)
+  &trans    &trans    &trans     &trans     &trans     &kp ESC    &kp RET    &kp LS(ENTER)  &kp LG(ENTER)    &kp LG(DOWN)
                       &trans     &trans     &trans     &trans     &kp TAB    &kp RS(TAB)
             >;
         };
