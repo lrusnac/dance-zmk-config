@@ -30,12 +30,12 @@ layers:
     - {t: ',', s: <}
     - {t: ., s: '>'}
     - /
-  - - {t: ▽, type: trans}
+  - - {t: ⎋, h: LEFT SHIFT}
     - BACKSPACE
     - num
     - nav
     - SPACE
-    - {t: ▽, type: trans}
+    - ↹
   num:
   - - {t: '`', s: '~'}
     - '@'
@@ -108,8 +108,8 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
-    - ↹
     - Sft+ ↹
+    - {t: ▽, type: trans}
   fun:
   - - {t: ▽, type: trans}
     - MUTE
