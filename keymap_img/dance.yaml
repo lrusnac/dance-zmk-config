@@ -30,7 +30,12 @@ layers:
     - {t: ',', s: <}
     - {t: ., s: '>'}
     - /
-  - [ESC, BACKSPACE, num, nav, SPACE, ↹]
+  - - {t: ESC, h: LEFT SHIFT}
+    - BACKSPACE
+    - num
+    - nav
+    - SPACE
+    - ↹
   num:
   - - {t: '`', s: '~'}
     - '@'
