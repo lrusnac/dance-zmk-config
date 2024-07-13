@@ -30,7 +30,7 @@ layers:
     - {t: ',', s: <}
     - {t: ., s: '>'}
     - /
-  - - {t: ESC, h: LEFT SHIFT}
+  - - {t: ESC, h: LSHIFT}
     - BACKSPACE
     - num
     - nav
