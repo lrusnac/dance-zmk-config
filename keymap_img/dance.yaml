@@ -33,7 +33,7 @@ layers:
   - - {t: ESC, h: LSHIFT}
     - BACKSPACE
     - {t: ESC, h: num}
-    - {t: ↹, h: nav}
+    - nav
     - SPACE
     - ↹
   num:
