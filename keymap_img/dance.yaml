@@ -126,7 +126,7 @@ layers:
     - {t: BT, h: '2'}
     - {t: BT, h: '3'}
     - {t: BT, h: '4'}
-    - {t: ▽, type: trans}
+    - '&studio_unlock'
     - F4
     - F5
     - F6
