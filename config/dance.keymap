@@ -5,7 +5,6 @@
  */
 
 #include "keypos_36keys.h"
-#include "mouse.dtsi"
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
@@ -16,6 +15,7 @@
 #define NUM 1
 #define NAV 2
 #define FUN 3
+#define MOU 4
 
 // home row modifiers timing
 
@@ -29,6 +29,24 @@
 #define COMBO_TERM_SLOW 30
 #define COMBO_IDLE_FAST 150
 #define COMBO_IDLE_SLOW 50
+
+// mouse settings
+
+#define ZMK_MOUSE_DEFAULT_MOVE_VAL 1500  // 600
+#define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
+
+&mmv {
+  acceleration-exponent = <1>;      // 1
+  time-to-max-speed-ms = <500>;     // 300
+  delay-ms = <0>;                   // 0
+};
+
+&msc {
+  acceleration-exponent = <1>;      // 0
+  time-to-max-speed-ms = <40>;      // 300
+  delay-ms = <0>;                   // 0
+};
+
 
 / {
     conditional_layers {
@@ -159,7 +177,7 @@
 
         mouse_layer {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans    &msc MOVE_LEFT  &msc MOVE_DOWN     &msc MOVE_UP   &msc MOVE_RIGHT    &trans
+  &trans  &trans  &trans  &trans  &trans    &msc SCRL_LEFT  &msc SCRL_DOWN     &msc SCRL_UP   &msc SCRL_RIGHT    &trans
   &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN     &mmv MOVE_UP   &mmv MOVE_RIGHT  &trans
   &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans
                   &trans  &trans  &trans    &trans  &trans     &trans
