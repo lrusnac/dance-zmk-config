@@ -12,7 +12,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-mouse-support
+    - name: zmk
       remote: petejohanson
       revision: feat/pointers-with-input-processors
       import: app/west.yml
