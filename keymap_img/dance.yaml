@@ -77,8 +77,8 @@ layers:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - '&mkp LCLK'
+    - '&mkp RCLK'
     - Alt+ Y
     - Alt+ U
     - ↹
