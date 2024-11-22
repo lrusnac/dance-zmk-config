@@ -30,7 +30,7 @@ layers:
     - {t: ',', s: <}
     - {t: ., s: '>'}
     - /
-  - - {t: ESC, h: LSHIFT}
+  - - mouse
     - BACKSPACE
     - {t: ESC, h: num}
     - nav
@@ -76,9 +76,9 @@ layers:
   nav:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
     - '&mkp LCLK'
     - '&mkp RCLK'
+    - '&mkp MCLK'
     - Alt+ Y
     - Alt+ U
     - ↹
@@ -136,5 +136,42 @@ layers:
     - {t: ▽, type: trans}
     - {type: held}
     - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  mouse:
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '&mkp LCLK'
+    - '&mkp RCLK'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
