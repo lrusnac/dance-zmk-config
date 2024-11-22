@@ -6,6 +6,7 @@
 
 #include "keypos_36keys.h"
 #include <behaviors.dtsi>
+#include "mouse.dtsi"
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
@@ -139,7 +140,7 @@
 
         nav_layer {
             bindings = <
-  &trans    &trans    &trans     &trans     &trans     &kp LA(Y)  &kp LA(U)    &kp TAB        &kp RC(RS(TAB))  &kp RC(TAB)
+  &trans    &trans    &trans     &mkp LCLK     &mkp RCLK     &kp LA(Y)  &kp LA(U)    &kp TAB        &kp RC(RS(TAB))  &kp RC(TAB)
   &sk LGUI  &sk LALT  &sk LSHFT  &sk LCTRL  &kp TAB    &kp LEFT   &kp DOWN     &kp UP         &kp RIGHT        &kp LG(UP_ARROW)
   &trans    &trans    &trans     &trans     &trans     &kp ESC    &kp RET      &kp LS(ENTER)  &kp LG(ENTER)    &kp LG(DOWN)
                       &trans     &trans     &trans     &trans     &kp LS(TAB)  &trans
