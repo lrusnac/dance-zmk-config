@@ -67,8 +67,8 @@ layers:
     - '2'
     - '3'
     - {t: '=', s: +}
-  - - Alt+ Y
-    - Alt+ U
+  - - Alt+Y
+    - Alt+U
     - {type: held}
     - {t: ▽, type: trans}
     - '0'
@@ -79,11 +79,11 @@ layers:
     - '&mkp LCLK'
     - '&mkp RCLK'
     - '&mkp MCLK'
-    - Alt+ Y
-    - Alt+ U
+    - Alt+Y
+    - Alt+U
     - ↹
-    - Ctl+Sft+ ↹
-    - Ctl+ ↹
+    - Ctl+Sft+↹
+    - Ctl+↹
   - - {t: ⌘, h: sticky}
     - {t: ⎇, h: sticky}
     - {t: ⇧, h: sticky}
@@ -93,7 +93,7 @@ layers:
     - ↓
     - ↑
     - →
-    - Gui+ UP ARROW
+    - Gui+UP ARROW
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -101,14 +101,14 @@ layers:
     - {t: ▽, type: trans}
     - ESC
     - RET
-    - Sft+ ENTER
-    - Gui+ ENTER
-    - Gui+ ↓
+    - Sft+ENTER
+    - Gui+ENTER
+    - Gui+↓
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
-    - Sft+ ↹
+    - Sft+↹
     - {t: ▽, type: trans}
   fun:
   - - {t: ▽, type: trans}
