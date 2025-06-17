@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: dance}
 layers:
   default:
   - - Q
@@ -93,7 +94,7 @@ layers:
     - ↓
     - ↑
     - →
-    - Gui+UP ARROW
+    - {t: Ctl+`, s: Ctl+~}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -103,7 +104,7 @@ layers:
     - RET
     - Sft+ENTER
     - Gui+ENTER
-    - Gui+↓
+    - {t: Gui+`, s: Gui+~}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
