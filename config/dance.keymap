@@ -50,19 +50,15 @@
 };
 
 &mmv_input_listener {
-    precision {
-        layers = <MOU>;
-        input-processors = <&zip_xy_scaler 1 4>;
-    };
+  warp {
+    layers = <MOU>;
+    input-processors = <&zip_xy_scaler 3 1>;
+  };
+  precision {
+    layers = <FUN>;
+    input-processors = <&zip_xy_scaler 1 2>;
+  };
 };
-
-&msc_input_listener {
-    turbo {
-        layers = <MOU>;
-        input-processors = <&zip_scroll_scaler 3 1>;
-    };
-};
-
 
 / {
     conditional_layers {
