@@ -34,8 +34,8 @@
 
 // mouse settings
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 250   // 10
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 600  // 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20   // 10
 
 &mmv {
     acceleration-exponent = <1>;      // 1
