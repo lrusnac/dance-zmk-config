@@ -1,0 +1,187 @@
+layout: {zmk_keyboard: morepork}
+layers:
+  default:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - {t: ;, s: ':'}
+  - {t: A, h: ⌘}
+  - {t: S, h: ⎇}
+  - {t: D, h: ⇧}
+  - {t: F, h: ⌃}
+  - G
+  - H
+  - {t: J, h: ⌃}
+  - {t: K, h: ⇧}
+  - {t: L, h: ⎇}
+  - {t: P, h: ⌘}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - /
+  - fun
+  - BACKSPACE
+  - {t: ESC, h: num}
+  - nav
+  - SPACE
+  - ↹
+  num:
+  - {t: '`', s: '~'}
+  - '@'
+  - '{'
+  - '}'
+  - '"'
+  - '*'
+  - '7'
+  - '8'
+  - '9'
+  - {t: '-', s: _}
+  - {t: ^, h: ⌘}
+  - {t: '#', h: ⎇}
+  - {t: (, h: ⇧}
+  - {t: ), h: ⌃}
+  - {t: '''', s: '"'}
+  - _
+  - {t: '4', h: ⌃}
+  - {t: '5', h: ⇧}
+  - {t: '6', h: ⎇}
+  - {t: +, h: ⌘}
+  - '&'
+  - <
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - '>'
+  - {t: \, s: '|'}
+  - '1'
+  - '2'
+  - '3'
+  - {t: '=', s: +}
+  - Alt+Y
+  - Alt+U
+  - {type: held}
+  - {t: ▽, type: trans}
+  - '0'
+  - {t: ., s: '>'}
+  nav:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - '&mkp MCLK'
+  - Alt+Y
+  - Alt+U
+  - ↹
+  - Ctl+Sft+↹
+  - Ctl+↹
+  - {t: ⌘, h: sticky}
+  - {t: ⎇, h: sticky}
+  - {t: ⇧, h: sticky}
+  - {t: ⌃, h: sticky}
+  - ↹
+  - ←
+  - ↓
+  - ↑
+  - →
+  - {t: Ctl+`, s: Ctl+~}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ESC
+  - RET
+  - Sft+ENTER
+  - Gui+ENTER
+  - {t: Gui+`, s: Gui+~}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - Sft+↹
+  - {t: ▽, type: trans}
+  fun:
+  - {t: ▽, type: trans}
+  - MUTE
+  - VOL DN
+  - VOL UP
+  - OUT TOG
+  - {t: ▽, type: trans}
+  - F7
+  - F8
+  - F9
+  - F12
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - '&studio_unlock'
+  - F4
+  - F5
+  - F6
+  - F11
+  - BT CLR
+  - PREV
+  - PP
+  - NEXT
+  - '&bootloader'
+  - '&bootloader'
+  - F1
+  - F2
+  - F3
+  - F10
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  mouse:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - '&mkp MCLK'
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - '&mkp MCLK'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
