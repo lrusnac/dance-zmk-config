@@ -1,0 +1,11 @@
+file_format: "1"
+id: morepork
+name: Morepork
+type: shield
+url: https://github.com/lrusnac/morepork
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - morepork_left
+  - morepork_right
