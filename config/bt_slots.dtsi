@@ -1,0 +1,20 @@
+#define BT_DISC_SEL(NAME, IDX, LABELTXT)                                         \
+    NAME: NAME {                                                                 \
+        label = LABELTXT;                                                        \
+        compatible = "zmk,behavior-macro";                                       \
+        #binding-cells = <0>;                                                    \
+        /* Optional small pause if hosts are slow to notice disconnects */       \
+        /* wait-ms = <150>; */                                                   \
+        bindings = <&bt BT_DISC>, <&bt BT_SEL IDX>;                              \
+    };
+
+ / {
+    macros {
+        BT_DISC_SEL(mac_slot0, 0, "MAC_SLOT0")
+        BT_DISC_SEL(mac_slot1, 1, "MAC_SLOT1")
+        BT_DISC_SEL(mac_slot2, 2, "MAC_SLOT2")
+        BT_DISC_SEL(iphone_slot3, 3, "IPHONE_SLOT3")
+        BT_DISC_SEL(ipad_slot4, 4, "IPAD_SLOT4")
+    };
+};
+
