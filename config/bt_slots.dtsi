@@ -3,12 +3,11 @@
         label = LABELTXT;                                                        \
         compatible = "zmk,behavior-macro";                                       \
         #binding-cells = <0>;                                                    \
-        /* Optional small pause if hosts are slow to notice disconnects */       \
         /* wait-ms = <150>; */                                                   \
         bindings = <&bt BT_DISC>, <&bt BT_SEL IDX>;                              \
-    };
+    }                                                                            \
 
- / {
+/ {                                             
     macros {
         BT_DISC_SEL(mac_slot0, 0, "MAC_SLOT0")
         BT_DISC_SEL(mac_slot1, 1, "MAC_SLOT1")
