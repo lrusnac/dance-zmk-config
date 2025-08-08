@@ -1,54 +1,27 @@
+/* --- helpers: disconnect all EXCEPT the given slot --- */
+#define DISC_EXCEPT_0  , <&bt BT_DISC 1> , <&bt BT_DISC 2> , <&bt BT_DISC 3> , <&bt BT_DISC 4>
+#define DISC_EXCEPT_1  , <&bt BT_DISC 0> , <&bt BT_DISC 2> , <&bt BT_DISC 3> , <&bt BT_DISC 4>
+#define DISC_EXCEPT_2  , <&bt BT_DISC 0> , <&bt BT_DISC 1> , <&bt BT_DISC 3> , <&bt BT_DISC 4>
+#define DISC_EXCEPT_3  , <&bt BT_DISC 0> , <&bt BT_DISC 1> , <&bt BT_DISC 2> , <&bt BT_DISC 4>
+#define DISC_EXCEPT_4  , <&bt BT_DISC 0> , <&bt BT_DISC 1> , <&bt BT_DISC 2> , <&bt BT_DISC 3>
+
+/* --- template: select IDX, then disconnect others --- */
 #define BT_SEL_CLEAN(NAME, IDX, LABELTXT)                                        \
     NAME: NAME {                                                                 \
         label = LABELTXT;                                                        \
         compatible = "zmk,behavior-macro";                                       \
         #binding-cells = <0>;                                                    \
         /* wait-ms = <120>; */                                                   \
-        bindings = <&bt BT_SEL IDX>                                              \
-            /* disconnect all except IDX */                                      \
-            , IFNEQ(IDX,0,< &bt BT_DISC 0 >)                                      \
-            , IFNEQ(IDX,1,< &bt BT_DISC 1 >)                                      \
-            , IFNEQ(IDX,2,< &bt BT_DISC 2 >)                                      \
-            , IFNEQ(IDX,3,< &bt BT_DISC 3 >)                                      \
-            , IFNEQ(IDX,4,< &bt BT_DISC 4 >);                                     \
+        bindings = <&bt BT_SEL IDX> DISC_EXCEPT_##IDX;                           \
     }                                                                            \
 
-/* Helper: expands to CODE if X != Y, otherwise nothing */
-#define IFNEQ(X,Y,CODE)  _IFNEQ(X,Y,CODE)
-#define _IFNEQ(X,Y,CODE)  IFNEQ_##X##_##Y(CODE)
-#define IFNEQ_0_0(...)
-#define IFNEQ_0_1(...) __VA_ARGS__
-#define IFNEQ_0_2(...) __VA_ARGS__
-#define IFNEQ_0_3(...) __VA_ARGS__
-#define IFNEQ_0_4(...) __VA_ARGS__
-#define IFNEQ_1_0(...) __VA_ARGS__
-#define IFNEQ_1_1(...)
-#define IFNEQ_1_2(...) __VA_ARGS__
-#define IFNEQ_1_3(...) __VA_ARGS__
-#define IFNEQ_1_4(...) __VA_ARGS__
-#define IFNEQ_2_0(...) __VA_ARGS__
-#define IFNEQ_2_1(...) __VA_ARGS__
-#define IFNEQ_2_2(...)
-#define IFNEQ_2_3(...) __VA_ARGS__
-#define IFNEQ_2_4(...) __VA_ARGS__
-#define IFNEQ_3_0(...) __VA_ARGS__
-#define IFNEQ_3_1(...) __VA_ARGS__
-#define IFNEQ_3_2(...) __VA_ARGS__
-#define IFNEQ_3_3(...)
-#define IFNEQ_3_4(...) __VA_ARGS__
-#define IFNEQ_4_0(...) __VA_ARGS__
-#define IFNEQ_4_1(...) __VA_ARGS__
-#define IFNEQ_4_2(...) __VA_ARGS__
-#define IFNEQ_4_3(...) __VA_ARGS__
-#define IFNEQ_4_4(...)
-
- / {
+/ {
     behaviors {
-        BT_SEL_CLEAN(mac_slot0, 0, "MAC_SLOT0");
-        BT_SEL_CLEAN(mac_slot1, 1, "MAC_SLOT1");
-        BT_SEL_CLEAN(mac_slot2, 2, "MAC_SLOT2");
-        BT_SEL_CLEAN(iphone_slot, 3, "IPHONE_SLOT");
-        BT_SEL_CLEAN(ipad_slot, 4, "IPAD_SLOT");
+        BT_SEL_CLEAN(mac_slot0, 0, "MAC_SLOT0")
+        BT_SEL_CLEAN(mac_slot1, 1, "MAC_SLOT1")
+        BT_SEL_CLEAN(mac_slot2, 2, "MAC_SLOT2")
+        BT_SEL_CLEAN(iphone_slot, 3, "IPHONE_SLOT")
+        BT_SEL_CLEAN(ipad_slot, 4, "IPAD_SLOT")
     };
 };
 
