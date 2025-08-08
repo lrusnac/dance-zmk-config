@@ -4,7 +4,7 @@
         compatible = "zmk,behavior-macro";                                       \
         #binding-cells = <0>;                                                    \
         /* wait-ms = <150>; */                                                   \
-        bindings = <&bt BT_DISC>, <&bt BT_SEL IDX>;                              \
+        bindings = <&bt BT_SEL IDX>;                              \
     }                                                                            \
 
 / {                                             
