@@ -17,11 +17,11 @@
 
 / {
     behaviors {
-        BT_SEL_CLEAN(mac_slot0, 0, "MAC_SLOT0")
-        BT_SEL_CLEAN(mac_slot1, 1, "MAC_SLOT1")
-        BT_SEL_CLEAN(mac_slot2, 2, "MAC_SLOT2")
-        BT_SEL_CLEAN(iphone_slot, 3, "IPHONE_SLOT")
-        BT_SEL_CLEAN(ipad_slot, 4, "IPAD_SLOT")
+        BT_SEL_CLEAN(mac_slot0, 0, "MAC_SLOT0");
+        BT_SEL_CLEAN(mac_slot1, 1, "MAC_SLOT1");
+        BT_SEL_CLEAN(mac_slot2, 2, "MAC_SLOT2");
+        BT_SEL_CLEAN(iphone_slot, 3, "IPHONE_SLOT");
+        BT_SEL_CLEAN(ipad_slot, 4, "IPAD_SLOT");
     };
 };
 
