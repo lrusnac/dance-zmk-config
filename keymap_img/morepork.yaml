@@ -125,8 +125,8 @@ layers:
   - '&mac_slot0'
   - '&mac_slot1'
   - '&mac_slot2'
-  - '&iphone_slot0'
-  - '&ipad_slot0'
+  - '&iphone_slot'
+  - '&ipad_slot'
   - '&studio_unlock'
   - F4
   - F5
