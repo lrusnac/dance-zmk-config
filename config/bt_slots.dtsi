@@ -9,11 +9,11 @@
 
 / {                                             
     macros {
-        BT_DISC_SEL(mac_slot0, 0, "MAC_SLOT0")
-        BT_DISC_SEL(mac_slot1, 1, "MAC_SLOT1")
-        BT_DISC_SEL(mac_slot2, 2, "MAC_SLOT2")
-        BT_DISC_SEL(iphone_slot, 3, "IPHONE_SLOT")
-        BT_DISC_SEL(ipad_slot, 4, "IPAD_SLOT")
+        BT_DISC_SEL(mac_slot0, 0, "MAC_SLOT0");
+        BT_DISC_SEL(mac_slot1, 1, "MAC_SLOT1");
+        BT_DISC_SEL(mac_slot2, 2, "MAC_SLOT2");
+        BT_DISC_SEL(iphone_slot, 3, "IPHONE_SLOT");
+        BT_DISC_SEL(ipad_slot, 4, "IPAD_SLOT");
     };
 };
 
